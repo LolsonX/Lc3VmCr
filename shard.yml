@@ -1,0 +1,15 @@
+name: lc3_vm
+version: 0.1.0
+
+authors:
+  - Karol Ostrowski <xlolsonx@gmail.com>
+
+targets:
+  lc3_vm:
+    main: src/lc3_vm.cr
+  compiler:
+    main: src/compiler/compiler.cr
+
+crystal: '>= 1.13.1'
+
+license: MIT
